@@ -1,1 +1,21 @@
-
+#main{
+	display: flex;
+	flex-direction:column
+}
+#name ,#year{
+	margin: 3px 10px 10px 0px;
+	width: 200px;
+	padding:8px;
+	background-color:rgb(228, 236, 228);
+	border:2px solid rgb(145, 197, 176)
+}
+label{
+	font-weight:500;
+	font-size:18px;
+}
+button{
+    border: 1px solid rgb(172, 172, 223);
+	width:100px;
+	padding:5px;
+	margin-top: 10px;
+}
